@@ -1,0 +1,46 @@
+<div class="container">
+  <header class="blog-header py-3">
+    <h4>Posts:</h4>
+  
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-light active"  (click)="getListOrderBy('DESC')" >
+              <input type="radio" name="options" id="option3" autocomplete="off" > Order DESC
+            </label>
+          <label class="btn btn-light"  (click)="getListOrderBy('ASC')" >
+            <input type="radio" name="options" id="option2" autocomplete="off"> Order ASC
+          </label>
+        </div>
+  </header>
+  
+         <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Title</th>
+              <th scope="col">Description</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let datos of lista">   
+                  <td> {{datos.id}} </td>
+                  <td> {{datos.title}} </td>
+                  <td> {{datos.description}} </td>
+                  <td> {{datos.date}} </td>
+            </tr>
+          </tbody>
+        </table>
+
+      <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-end">
+              <!--
+                <li class="page-item"><a class="page-link"  (click)="inicio()"><u>First</u></a></li>
+              -->
+              <li class="page-item"><a class="page-link" (click)="seleccionarPagina(1)"><u>First</u></a></li>
+              <li class="page-item"><a class="page-link" (click)="seleccionarPagina(2)"><u>2</u></a></li>
+              <li class="page-item"><a class="page-link" (click)="seleccionarPagina(3)"><u>3</u></a></li>
+              <li class="page-item"><a class="page-link" (click)="seleccionarPagina(4)"><u>4</u></a></li>
+              <li class="page-item"><a class="page-link"  (click)="seleccionarPagina(5)"> <u>Last</u></a></li>
+          </ul>
+        </nav>
+</div>
