@@ -30,6 +30,8 @@ Technologies used:
 Run `json-server index.js` for a dev server. Navigate to `http://localhost:3000/`.
 
 ## Development Angular Server 
+Run `npm install`
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## List of End Points (samples)
