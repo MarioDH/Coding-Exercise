@@ -7,8 +7,8 @@ by ​json-server​.
 Technologies used:
 
 1. [Json-server]​ - (https://www.npmjs.com/package/json-server )
-2. [Angular]​- (https://angular.io/guide/quickstart )
-3. [Bootstrap 4.0.0](http://getbootstrap.com)
+2. [Angular] ​- (https://angular.io/guide/quickstart )
+3. [Bootstrap@4.0.0] - (http://getbootstrap.com)
 
 ## Installation
 
@@ -26,15 +26,13 @@ Technologies used:
 ### Install Locally
 `npm install @angular/cli`
 
-### Development JSON SERVER
+## Development JSON SERVER
 Run `json-server index.js` for a dev server. Navigate to `http://localhost:3000/`.
 
-### Development Angular Server 
+## Development Angular Server 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
-##Extra
-
-### List of End Points (samples)
+## List of End Points (samples)
 
 Publications Descending order 
 http://localhost:3000/posts?_limit=10&_sort=date&_order=DESC
@@ -50,3 +48,6 @@ http://localhost:3000/author/
 
 list of publications by author name
 http://localhost:3000/author?name_like=Mario&_embed=posts
+
+## Author
+### Mario Dominguez
