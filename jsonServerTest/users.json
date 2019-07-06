@@ -1,0 +1,33 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "profileId": 1 },
+    { "id": 2, "title": "Typescript", "profileId": 2 },
+    { "id": 3, "title": "angular", "profileId": 3 },
+    { "id": 4, "title": "json-server", "profileId": 3 }
+    ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 3 },
+    { "id": 3, "body": "some comment", "postId": 3 }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "name": "typicode",
+      "apellido": "sample",
+      "email": "sample@gmail.com"
+    },
+    { 
+      "id": 2,
+      "name": "mad" ,
+      "apellido" : "Men",
+      "email" : "Anna@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "demo",
+      "apellido": "demo",
+      "email": "demo@gmail.com"
+    }
+  ]
+}
